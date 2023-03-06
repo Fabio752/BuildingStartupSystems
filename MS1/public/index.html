@@ -1,0 +1,182 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F18YFSEJF2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F18YFSEJF2');
+</script>
+
+<body>
+  <!-- MAKE NAVBAR -->
+  <nav class="navbar light-background" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      BK PETS
+    </div>
+  </nav>
+
+  <!-- Intro section -->
+  <div class="columns gray-background">
+    <div class="column title-box">
+      <div class="title">
+        The best products for your dog
+      </div>
+      <div class="subtitle small-subtitle">
+        Because your dogs deserve to be at their happiest
+      </div>
+      <div class="buttons">
+        <button class="button is-dark">Learn More</button>
+      </div>
+    </div>
+    <div class="column">
+      <div id="slider">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9 is-covered">
+              <img src="https://media.istockphoto.com/id/1188690349/photo/funny-portrait-of-a-welsh-corgi-pembroke-dog-showering-with-shampoo-dog-taking-a-bubble-bath.jpg?s=612x612&w=0&k=20&c=Jooeg9CUg4AfAHDOUlchgZGJpv_nS1sGR4xXsKzsFnU=" alt="" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <!-- Products Section -->
+  <div class="columns light-background is-centered">
+    <div class="column">
+      <div id="slider">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9 is-covered product-image">
+              <!-- 
+                Insert Dynamically:  
+                <img src="YOUR-IMAGE-HERE.JPG" alt="" /> 
+              -->
+            </figure>
+          </div>
+        </div>
+        <div class="buttons image-toggles is-centered">
+          <button class="button is-dark" id="previous-product-button" 
+                  value="-1" onclick="changeProduct(this.value)"> <	</button>
+          <button class="button is-dark" id="next-product-button"
+                  value="1" onclick="changeProduct(this.value)"> > </button>
+          <button class="button is-dark buy-now-button">Buy Now!</button>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="product-text-box">
+        <!--  
+          Insert Dynamically: 
+          <div class="product-title"></div>
+          <div class="subtitle small-subtitle"></div>
+          <ul class="features-list"><li></li></ul>
+        -->
+      </div>
+    </div>
+  </div>  
+
+  <!-- Value Proposition section -->
+  <div class="columns gray-background value-proposition-section">
+    <div class="column has-text-centered">
+      <div class="subtitle">
+        Your Best Value Proposition
+      </div>
+      <div class="subtitle small-subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat. 
+      </div>
+    </div>
+  </div>
+  <div class="columns gray-background value-proposition-section">
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-16by9 is-covered product-image">
+            <img src="https://static.onecms.io/wp-content/uploads/sites/34/2021/05/11/corgi-bathing-in-sink-getty-0521-2000.jpg" alt="" /> 
+          </figure>
+        </div>
+        <div class="card-content slider-text">
+          <div class="is-size-5 box">
+              <div class="handle"> @someoneinqueens</div>
+              <div class="post-text">my dog loves these shampoos!</div>
+          </div>
+          <div class="post-time">3 weeks ago</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-16by9 is-covered product-image">
+            <img src="https://walkitlikeadog.com/wp-content/uploads/2017/10/Shampoo-Blog.jpg" alt="" /> 
+          </figure>
+        </div>
+        <div class="card-content slider-text">
+          <div class="is-size-5 box">
+              <div class="handle"> @someoneinbrooklyn</div>
+              <div class="post-text">my dog hogs the shower now</div>
+          </div>
+          <div class="post-time">2 weeks ago</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-16by9 is-covered product-image">
+            <img src="https://cdn.mominformed.com/wp-content/uploads/2020/06/girl-holding-dry-shampoo.jpg" alt="" /> 
+          </figure>
+        </div>
+        <div class="card-content slider-text">
+          <div class="is-size-5 box">
+              <div class="handle"> @someoneinmanhattan</div>
+              <div class="post-text">Even I like the dog shampoo</div>
+          </div>
+          <div class="post-time">5 days ago</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="columns light-background">
+    <div class="column">
+        <div class="has-text-weight-bold">
+          BK PETS
+        </div>
+        <div>
+            &copy; 2010-2020
+        </div>
+        <div>
+          Privacy Terms
+      </div>
+    </div>
+    <div class="column footer-socials">
+      <div class="has-text-weight-bold">
+        Follow us on
+      </div>
+      <div>
+          Instagram
+      </div>
+      <div>
+          Facebook
+    </div>
+  </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+  
+</html>

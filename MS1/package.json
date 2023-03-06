@@ -1,0 +1,11 @@
+{ 
+ "name": "milestone1", 
+ "version": "1.0.0", 
+ "description": "", 
+ "main": "main.js", 
+ "scripts": { 
+ 	"build": "echo 'build script executed'" 
+ }, 
+ "author": "", 
+ "license": "" 
+} 

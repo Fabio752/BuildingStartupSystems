@@ -1,0 +1,81 @@
+.navbar {
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  margin-left: 1em;
+  align-items: center;  
+}
+
+.columns {
+  padding: 3em;
+}
+
+.title-box {
+  padding: 4em;
+}
+
+.small-subtitle {
+  font-size: small;
+  padding-top: 1em;
+}
+
+.light-background {
+  background-color: #f3f3f3;
+}
+
+.gray-background {
+  background-color: #dedede;
+}
+
+.image-toggles {
+  margin-top: 0.5em;
+  font-size: large;
+  font-weight: 600;
+}
+
+.product-title {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.buy-now-button {
+  margin-left: 2em;
+}
+
+.features-list {
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: small;
+}
+
+.value-proposition-section {
+  padding: 1em;
+}
+
+.handle {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.post-text {
+  font-size: 0.6em;
+}
+
+.post-time {
+  font-size: 0.5em;
+}
+
+.card-content {
+  padding: 0.5em;
+}
+
+.box {
+  padding: 0.3em;
+  margin-bottom: 0.3em !important;
+}
+
+.footer-socials {
+  text-align: right;
+}
